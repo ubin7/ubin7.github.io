@@ -26,7 +26,6 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 2px solid red; */
 }
 
 ul {
@@ -388,19 +387,19 @@ footer {
 
 @media screen and (max-width: 420px) {
     .hero img {
-        height: 37.5rem;
-        width: 23rem;
+      height: 37.5rem;
+      width: 23rem;
     }
   
     .bio {
-        width: 18.3rem;
+      width: 18.3rem;
     }
   
     .project-container {
-        width: 17.875rem;
+      width: 17.875rem;
     }
   
     .contact-form-container {
-        max-width: 17.75rem;
+      max-width: 17.75rem;
     }
 } 
