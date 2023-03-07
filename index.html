@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--Estilos CSS -->
+        <link rel="stylesheet" href="assets/css/styles.css" />
+
+        <!-- Favicons -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="assets/icons/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="assets/icons/favicon-32x32.png"
+        />
+
+        <!-- Animaciones CSS CDN -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <title>Julie Garcia | CV Online</title>
+    </head>
+
+    <body>
+        <!-- Barra de Navegación -->
+        <nav>
+            <h1>Julie Garcia</h1>
+            <ul class="navigation">
+                <li><a href="#about" class="nav-link">Acerca de mí</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+        </nav>
+
+        <!-- Sección Hero  -->
+        <section class="hero" id="about">
+            <img
+                src="assets/images/wfh_1.svg"
+                alt="jane-doe"
+                loading="lazy"
+                class="hero-img"
+            />
+            <div class="bio animate__animated animate__shakeX">
+                <h2 class="bio-title">Acerca de mí</h2>
+                <p class="bio-text">
+                    Desarrolladora web con cinco años de experiencia en
+                    proyectos de diseño de páginas web incluyendo la recopilación 
+                    de las necesidades de los usuarios, producción de código, 
+                    creación de maquetas y mejora del diseño para clientes exigentes. 
+                </p>
+            </div>
+        </section>
+
+        <!-- Sobre Mí -->   
+        <section class="more-about">
+            <h2>Más acerca de mí</h2>
+            <p>
+                Desarrolladora web innovadora, proactiva y con capacidad para 
+                desarrollar páginas web elegantes y pioneras y diseños de 
+                aplicaciones para clientes exigentes. Organizado y con capacidad 
+                de multitarea con experiencia en programación de proyectos, 
+                mejora de diseños y verificación del código. Habilidades de 
+                desarrollo web y aplicaciones móviles para una posición estimulante 
+                en una compañía moderna, abierta y profesional.
+            </p>
+
+        </section>
+      
+        <!-- Sección Habilidades -->
+        <section class="skills" id="skills">
+            <h2 class="skill-header">Mis mejores habilidades</h2>
+      
+            <div class="skills-wrapper">
+                <div class="first-set animate__animated animate__pulse">
+                    <img
+                        src="assets/icons/icons8-html-5.svg"
+                        alt=""
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                    <img
+                        src="assets/icons/icons8-css3.svg"
+                        alt=""
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                    <img
+                        src="assets/icons/icons8-javascript.svg"
+                        alt=""
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                </div>
+      
+                <div class="second-set animate__animated animate__pulse">
+                    <img
+                        src="assets/icons/icons8-bootstrap.svg"
+                        alt=""
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                    <img
+                        src="assets/icons/icons8-react-native.svg"
+                        alt=""
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                    <img
+                        src="assets/icons/icons8-git.svg"
+                        alt=""
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Proyectos -->
+        <section class="projects" id="projects">
+            <h2 class="projects-title">Algunos de mis proyectos recientes</h2>
+            <div class="projects-container">
+                <div class="project-container project-card">
+                    <img
+                        src="assets/images/expenseTracker.png"
+                        alt="expense-tracker"
+                        loading="lazy"
+                        class="project-pic"
+                    />
+                    <h3 class="project-title">Rastreador de Gastos</h3>
+                    <p class="project-details">
+
+                    </p>
+                    <a href="#" target="_blank" class="project-link">Échale un vistazo!</a>
+                </div>
+                <div class="project-container project-card">
+                    <img
+                        src="assets/images/netflixClone.png"
+                        alt="netflic-clone"
+                        loading="lazy"
+                        class="project-pic"
+                    />
+                    <h3 class="project-title">Netflix Clone</h3>
+                    <p class="project-details">
+
+                    </p>
+                    <a href="#" target="_blank" class="project-link">Échale un vistazo!</a>
+                </div>
+                <div class="project-container project-card">
+                    <img
+                        src="assets/images/greenyEarth.png"
+                        alt="greeny-earth"
+                        loading="lazy"
+                        class="project-pic"
+                    />
+                    <h3 class="project-title">Greeny Earth</h3>
+                    <p class="project-details">
+
+                    </p>
+                    <a href="#" target="_blank" class="project-link">Échale un vistazo!</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto-->
+        <section class="contact" id="contact">
+            <h2>Contáctame</h2>
+            <div class="contact-form-container">
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/xyylngw" method="POST">
+                        <div class="form-control">
+                            <label for="name">Nombre</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="sender-name"
+                                placeholder="Escribe tu nombre"
+                                class="input-field"
+                                required
+                            />
+                        </div>
+                        <div class="form-control">
+                            <label for="email">Correo Electrónico</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="sender-email"
+                                placeholder="Escribe tu correo electrónico"
+                                class="input-field"
+                                required
+                            />
+                        </div>
+                        <div class="form-control">
+                            <label for="message">Mensaje</label>
+                            <textarea
+                                id="message"
+                                cols="60"
+                                rows="10"
+                                placeholder="Escribe tu mensaje"
+                                name="message"
+                                class="input-field"
+                                required
+                            ></textarea>
+                        </div>
+                        <input
+                            type="submit"
+                            value="Enviar"
+                            id="submit-btn"
+                            class="submit-btn"
+                        />
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de redes sociales - Fijado a la derecha -->
+        <div class="socials">
+            <a href="https://twitter.com/" target="_blank"><img
+                src="assets/icons/icons8-twitter-circled.gif"
+                alt="Twitter"
+                loading="lazy"
+                class="socicon"
+            /></a>
+            <a href="https://www.instagram.com/" target="_blank"><img
+                src="assets/icons/icons8-instagram.gif"
+                alt="Instagram"
+                loading="lazy"
+                class="socicon"
+            /></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img
+                src="assets/icons/icons8-linkedin-circled.gif"
+                alt="Linkedin"
+                loading="lazy"
+                class="socicon"
+            /></a>
+            <a href="https://github.com/" target="_blank"><img 
+                src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+            /></a>
+        </div>
+
+        <!-- Vuelve al comienzo  -->
+        <i class="scroll-up" id="scroll-up"><img
+            src="assets/icons/icons8-upward-arrow.gif"
+            class="socicon up-arrow"
+            alt="scroll-up"
+        /></i>
+
+        <!-- Sección Footer  -->
+        <footer>
+            <p class="copy">
+                -------
+            </p>
+        </footer>
+
+        <!-- Website scripts -->
+        <script src="assets/js/app.js"></script>
+
+        <!-- Ion icons scripts -->
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
+</html>
